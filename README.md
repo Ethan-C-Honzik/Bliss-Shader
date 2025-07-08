@@ -1,3 +1,6 @@
+# Fork info
+this fork adds some additional compatibility for flood lighting with some mods like macaws furniture, fences, and bridges. As well as create craft's and additions, create (more compat than already existed), and create steam and rails
+
 # Bliss
 <img src="https://github.com/X0nk/Bliss-Shader/assets/122314734/873c788c-5a48-46c0-9fb5-eac57b4ffa27" width="100%" height="100%">
 I always loved chocapic's shaders, and how customizeable it was. But i wanted MORE.
