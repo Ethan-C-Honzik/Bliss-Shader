@@ -960,7 +960,7 @@ void main() {
 			vec3 resourcePackskyBox = toLinear(texture2D(colortex10, texcoord).rgb * 5.0) * 15.0 * clamp(unsigned_WsunVec.y*2.0,0.1,1.0);
 
 			#ifdef SKY_GROUND
-				resourcePackskyBox *= atmosphereGround;
+				resourcePackskyBox *=  1.0 - exp2(-50.0 * pow(clamp(feetPlayerPos_normalized.y+0.025,0.0,1.0),2.0)  );
 			#endif
 
 			Background += resourcePackskyBox;
